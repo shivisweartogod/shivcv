@@ -1,0 +1,134 @@
+body
+{
+    margin: 0;
+    background-color: #060047;
+    background-image: linear-gradient(#150050,#31E1F7);
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+h1
+{
+    margin: 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 400%;
+}
+.title1{
+    line-height: 40px;
+    margin: none;
+    position: relative;
+    bottom: 350px;
+    color: #FFFBEB;
+}
+.welcome{
+    font-family: 'Sacramento', cursive;
+    position: relative;
+    color: #FFFBEB;
+    display: inline-block;
+    bottom: 420px;
+    font-size: 190%;
+}p{
+    line-height: 2;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #F0A04B;
+}
+.top-container
+{
+    position: relative;
+}
+.nightsky{
+    display: inline-block;
+    width: 100%;
+}
+.cloudtop
+{
+  position: absolute;
+  top: 800px;
+  left: 230px;
+}
+.profilepic{
+    height: 200px;
+    width: 200px;
+}
+.cloudbottom
+{
+  position: absolute;
+  right: 240px;
+  top: 850px;
+}
+.profile{
+    width: 30%;
+    margin: auto;
+}
+.skill-row{
+    width: 50%;
+    margin: 70px auto 100px auto;
+    text-align: left;
+}
+.codeimg{
+   width: 35%;
+   float: left;
+   margin-right: 30px;
+}
+.chessimg{
+    width: 35%;
+    float: right;
+    margin-left: 30px;
+}
+hr{
+    border-style: dotted none none;
+    border-color: #ABD9FF;
+    border-width: 16px;
+    width: 10%;
+    height: none;
+}
+.logoimage{
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+}
+.btn {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #ffaa00;
+    background-image: -webkit-linear-gradient(top, #ffaa00, #e6b319);
+    background-image: -moz-linear-gradient(top, #ffaa00, #e6b319);
+    background-image: -ms-linear-gradient(top, #ffaa00, #e6b319);
+    background-image: -o-linear-gradient(top, #ffaa00, #e6b319);
+    background-image: linear-gradient(to bottom, #ffaa00, #e6b319);
+    text-decoration: none;
+  }
+  .contact-me{
+    padding: 50px;
+  }
+  .bottom-container{
+    background-color: #F7C04A;
+    padding: 20px 0 20px;
+  }
+  .footer-link{
+    margin: 0 30px 0 30px;
+  }
+  .copywrite{
+    padding-top: 20px;
+  }
